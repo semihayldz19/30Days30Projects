@@ -1,0 +1,39 @@
+body {
+    background: rgb(218, 206, 206);
+    overflow: hidden;
+
+}
+.btn1 {
+    color:rgb(246, 243, 238);
+    background-color: chocolate;
+   width: 30%;
+    height: 80px;
+    border-radius: 50%;
+    border-width: 10px;
+    border-style:dashed;
+    border-color: black
+
+
+}
+.konum {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+
+.btn1.clicked {
+
+    height: 90px;
+    width: 40%;
+    background-color: cornflowerblue;
+    border-style:hidden;
+    border-radius: 50%;
+   
+
+
+}
+
+  
