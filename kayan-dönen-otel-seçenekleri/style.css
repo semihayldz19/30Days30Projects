@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  background-color: rgb(154, 162, 162);
+}
+.container {
+  display: flex;
+  width: 80vw;
+}
+
+.panel {
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 80px;
+  cursor: pointer;
+  flex: 1.5;
+  margin: 3px;
+  position: relative;
+  transition-property: transform;
+  transition-duration: 2s;
+}
+
+.active {
+  flex: 5;
+}
+
+div:hover {
+  transform: rotate(360deg);
+}
