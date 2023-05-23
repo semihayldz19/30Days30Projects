@@ -1,0 +1,59 @@
+body {
+  background-image: url("net.png");
+  background-repeat: no-repeat;
+}
+.boyutN {
+  width: 30vh;
+  height: 50px;
+}
+.login {
+  height: 70vh;
+  width: 350px;
+  background-color: red;
+}
+.konum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.saydam {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); /* R: 0, G: 0, B: 0 (siyah), Opaklık: 0.5 */
+}
+.konum2 {
+  display: inline-block;
+  float: left;
+}
+
+.buton {
+background-color: red;
+height: 7vh;
+width: 45vh;
+
+}
+.check1 {
+    width: 15px;
+    height: 15px;
+}
+.txt {
+    font-size: small;
+    color: gray;
+}
+.txt2 {
+    font-size:large
+    font-weight: 200px;
+    color: gray;
+}
+.arka {
+    background-color: rgba(60, 54, 54, 0.5); /* R: 0, G: 0, B: 0 (siyah), Opaklık: 0.5 */
+    border:0;
+
+}
+.arka::placeholder {
+    color:white;
+    
+}
