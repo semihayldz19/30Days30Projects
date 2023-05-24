@@ -9,7 +9,6 @@ function control() {
     alert("tekrar deneyin");
   }
 }
-
 function successful() {
   alert("Oturum açma işleminiz başarılı");
 }
