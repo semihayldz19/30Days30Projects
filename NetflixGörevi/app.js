@@ -1,9 +1,12 @@
-let sifre = document.querySelector("#exampleInputPassword1").value;
 function control() {
-  if ((sifre.length = 6)) {
+  let sifre = document.querySelector("#exampleInputPassword1").value;
+  let pass = 6;
+  if (sifre.length < pass || sifre.length > pass) {
+    unsuccessful();
+  } else if (sifre.length == pass) {
     successful();
   } else {
-    unsuccessful();
+    alert("tekrar deneyin");
   }
 }
 
@@ -12,5 +15,5 @@ function successful() {
 }
 
 function unsuccessful() {
-  alert("lütfen 6 basamaklı bir şifre girin!");
+  alert("lütfen 6 haneden oluşan bir şifre girin!");
 }
