@@ -2,14 +2,29 @@ body {
   background-image: url("net.png");
   background-repeat: no-repeat;
 }
+.cont {
+  width: 100%;
+  height: 100px;
+}
+
+.oturumA {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 28px;
+}
+.boyutB {
+  height: 300px;
+  width: 50px;
+}
+
 .boyutN {
-  width: 30vh;
-  height: 50px;
+  width: 25vh;
+  height: 45px;
 }
 .login {
-  height: 70vh;
-  width: 350px;
-  background-color: red;
+  height: 85vh;
+  width: 450px;
 }
 .konum {
   display: flex;
@@ -17,12 +32,9 @@ body {
   align-items: center;
 }
 .saydam {
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.7
-  ); /* R: 0, G: 0, B: 0 (siyah), Opaklık: 0.5 */
+  background-color: rgba(0, 0, 0, 0.86);
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 .konum2 {
   display: inline-block;
@@ -30,30 +42,69 @@ body {
 }
 
 .buton {
-background-color: red;
-height: 7vh;
-width: 45vh;
-
+  height: 49px;
+  width: 46vh;
+  background: #e50914;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 24px 0 12px;
+  color: white;
+  border: 0;
 }
 .check1 {
-    width: 15px;
-    height: 15px;
+  width: 14px;
+  height: 16px;
+  background-color: rgba(53, 52, 52, 0.4);
 }
+
 .txt {
-    font-size: small;
-    color: gray;
+  color: rgba(245, 240, 240, 0.7);
+  font-size: 13px;
+  font-weight: 500;
 }
 .txt2 {
-    font-size:large
-    font-weight: 200px;
-    color: gray;
+  font-size: 17px;
+  font-weight: 200px;
+  color: gray;
 }
-.arka {
-    background-color: rgba(60, 54, 54, 0.5); /* R: 0, G: 0, B: 0 (siyah), Opaklık: 0.5 */
-    border:0;
+.txt3 {
+  font-size: 13px;
+  font-weight: 300px;
+  color: #8c8c8c;
+}
 
+.arka {
+  background-color: rgba(53, 52, 52, 0.83);
+  border-radius: 10px;
 }
+
 .arka::placeholder {
-    color:white;
-    
+  color: rgb(140, 140, 140, 0.8);
+  font-size: 16px;
+  left: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: font 0.1s ease, top 0.1s ease, transform 0.1s ease;
+  font-weight: 500;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+
+.kutuA {
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  padding: 16px 20px 0;
+}
+.kutuB {
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  padding: 16px 20px 0;
 }
