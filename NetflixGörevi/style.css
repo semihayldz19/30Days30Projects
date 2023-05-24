@@ -26,6 +26,9 @@ body {
   height: 85vh;
   width: 450px;
 }
+.in {
+  width: 80%;
+}
 .konum {
   display: flex;
   justify-content: center;
