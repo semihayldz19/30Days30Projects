@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(232, 212, 222);
+}
+
+.navbar {
+  padding: 40px;
+  margin: auto;
+  background-image: url("https://fotolifeakademi.com/uploads/2020/04/guzel-manzaralar-cekmek.webp");
+  border-radius: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1 {
+  display: inline-block;
+  padding: 25px;
+  font-weight: 500px;
+  color: rgb(149, 31, 55);
+  font-style: italic;
+}
+ul {
+  display: inline-block;
+  padding: 20px;
+  margin-left: 50%;
+}
+ul li {
+  display: inline-block;
+  padding: 10px;
+  margin: 0 20px;
+}
+ul li a {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 22px;
+  font-style: italic;
+  text-decoration: none;
+  color: rgb(217, 100, 123);
+}
