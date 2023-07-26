@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--header navbar kısmı başladı-->
+
+    <nav class="navbar navbar-expand-lg bg-black navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand jumping-text" href="#"
+          ><img src="image/ikon.jpg" alt="" srcset="" class="ikon" /><span
+            class=""
+          >
+            Web Sitem</span
+          >
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Anasayfa</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="hakkimda.html">Hakkımda</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-light"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Çiçek Çeşitleri
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Gül</a></li>
+                <li><a class="dropdown-item" href="#">Papatya</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Şkayık</a></li>
+                <li><a class="dropdown-item" href="#">Lale</a></li>
+                <li><a class="dropdown-item" href="#">Orkide</a></li>
+                <li></li>
+                <li></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="iletisim.html">İletişim</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button
+              class="btn btn-outline-success search text-light"
+              type="submit"
+            >
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--navbar bitti-->
+    <form action="">
+      <div class="my-3 bg-light p-4 p-sm-5 rounded-3">
+        <div class="row align-items-center" ng-cloak>
+          <div class="col-md-6">
+            <h1 class="display-5">İletişim Formu</h1>
+            <p class="fs-5">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
+              explicabo nisi autem officia eaque. Harum assumenda quas, quidem
+              cumque consequatur accusantium similique quibusdam aliquam. Aut
+              facilis sunt et asperiores illum.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <form>
+              <div class="form mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Ad Soyad"
+                />
+              </div>
+              <div class="form mb-3">
+                <input type="email" class="form-control" placeholder="Email" />
+              </div>
+              <div class="form mb-3">
+                <input type="tel" class="form-control" placeholder="Telefon" />
+              </div>
+              <div class="form mb-3">
+                <textarea
+                  class="form-control"
+                  rows="3"
+                  placeholder="Görüşmek istediğiniz konu nedir?"
+                ></textarea>
+              </div>
+              <div class="form">
+                <button class="btn btn-primary w-100">
+                  <i class="fa-regular fa-envelope"></i> Gönder
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </form>
+    <!--footer başladı-->
+    <footer class="bg-dark mt-3">
+      <div class="bg-dark text-light text-center">
+        <p class="align-middle p-5">
+          <span>Tüm Hakları Saklıdır. &copy;|2023</span><br />
+          <span>Designed By: <b>Akademi</b></span>
+        </p>
+      </div>
+    </footer>
+
+    <!--footer bitti-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

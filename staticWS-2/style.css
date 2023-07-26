@@ -16,3 +16,48 @@
   transform: scale(0.9); /*resmi 1.2 kat büyüt*/
   opacity: 0.3;
 }
+.resimSlider {
+  height: 250px;
+ 
+}
+
+@keyframes slowFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slow-fade-in {
+  animation: slowFadeIn 2s forwards;
+}
+.slide-in-from-left {
+  opacity: 0; /* Başlangıçta metni gizleyin */
+  transform: translateX(-100%); /* Sol taraftan kaydırın */
+  animation: slideIn 1s forwards;
+}
+
+@keyframes slideIn {
+  to {
+    opacity: 1; /* Son durumda metni görünür hale getirin */
+    transform: translateX(0); /* Son durumda metni tam ortaya getirin */
+  }
+}
+@keyframes jump {
+  0%, 100% {
+    transform: translateY(0); /* Başlangıç ve bitiş durumu: hiçbir hareket yok */
+  }
+  50% {
+    transform: translateY(-20px); /* 50% noktasında metni yukarı doğru hareket ettirin */
+  }
+}
+
+.jumping-text {
+  animation: jump 1s infinite;
+}
+
+
