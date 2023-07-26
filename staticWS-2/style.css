@@ -1,17 +1,32 @@
 .ikon {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
+  border:1px solid black;
+  border-radius: 50%;
 }
 .search {
-  background-color: blue;
+  background-color:rgb(197, 165, 169);
+}
+.baslikI {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 .sliderimg {
   height: 400px;
+}
+.baslik {
+  font-family:fantasy;
 }
 .kart {
   width: 400px;
   height: 400px;
 }
+.bar {
+  background-color: rgb(222, 201, 204);
+  color:white;
+  
+}
+
 .resimsliderCard:hover {
   transform: scale(0.9); /*resmi 1.2 kat büyüt*/
   opacity: 0.3;
@@ -59,5 +74,6 @@
 .jumping-text {
   animation: jump 1s infinite;
 }
+
 
 
