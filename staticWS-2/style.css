@@ -1,0 +1,18 @@
+.ikon {
+  width: 30px;
+  height: 30px;
+}
+.search {
+  background-color: blue;
+}
+.sliderimg {
+  height: 400px;
+}
+.kart {
+  width: 400px;
+  height: 400px;
+}
+.resimsliderCard:hover {
+  transform: scale(0.9); /*resmi 1.2 kat büyüt*/
+  opacity: 0.3;
+}
